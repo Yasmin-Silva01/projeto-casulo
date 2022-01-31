@@ -1,49 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Casulo pra rua</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casulo pra rua</title>
 
-<!-- Inserindo tags meta -->
-<meta name="description" content="Site que mostra o Projeto Casulo pra Rua. Um saco de dormir voltado para população em situação de rua">
-<meta name="keywords" content="casulo, população em situação de rua, saco de dormir, ajuda população vulnerável">
+    <!-- Inserindo tags meta -->
+    <meta name="description" content="Site que mostra o Projeto Casulo pra Rua. Um saco de dormir voltado para população em situação de rua">
+    <meta name="keywords" content="casulo, população em situação de rua, saco de dormir, ajuda população vulnerável">
 
 
-<!-- Inserindo Favicon -->
-<link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <!-- Inserindo Favicon -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 
- 
-<!-- CSS externo -->
-<link rel="stylesheet" href="css/estilos.css">
-<link rel="stylesheet" href="css/slide.css">
+    
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/slide.css">
 </head>
 <body>
 
  
-    <header>
-
-        <div class="limitador">
-          <h1 class="logo">
-             <a href="index.html"><img src="imagens/logo.png" alt="logo Casulo pra rua"></a>
-          </h1>
-
-          <nav>
-              <h2 class="icone-menu">
-                 <a href="" class="icone">Menu&equiv;</a>
-              </h2>
-              <ul class="menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="">Cartilha</a></li>
-                  <li><a href="">Nossos Parceiros</a></li>
-                  <li><a href="">Fale conosco</a></li>
-              </ul>
-          </nav>
-
-        </div>
-    </header>
-
+   
+    <?php include 'includes/header.php'; ?>
  
     <main>
        
@@ -129,27 +110,7 @@
         </article>
     </main>
 
- 
-    <footer>
-        <div class="footer-filho">
-            <img class="imagem-footer" src="imagens/logo.png">
-       </div>                                                                                                                                                                                                                                            
-
-       <div class="footer-filho">
-          <h2>Acompanhe o nosso trabalho</h2>
-          <p>
-              Siga-nos na nossas redes sociais <br>
-              e fique por dentro das novidades!
-          </p>
-          <p class="fale-conosco-footer">Fale conosco</p>
-       </div>
-
-       <div class="footer-filho" id="rede-social">
-            <img class="instagram" src="imagens/insta.png" alt="">
-            <img class="facebook" src="imagens/facebook.png" alt="">
-       </div>
-    </footer>
-
+    <?php include 'includes/footer.php'; ?>
 
   <script src="js/menu.js"></script>
   <script src="js/jquery-3.1.0.min.js"></script>
