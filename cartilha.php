@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="css/cartilha.css">
 </head>
 <body>
-<?php  
-  require 'includes/header.php';
-?>
+  <?php  
+     require 'includes/header.php';
+   ?>
 
  <main>
      <article>
@@ -44,10 +44,10 @@
              Reproduza e multiplique o Casulo <br> pelo Brasil e mundo afora
          </p>
 
-         <img class="imagem1"  src="imagens/foto 2.png" alt="">
+         <img class="imagem1"  src="imagens/foto 2.png" alt="casulo, impermeável e acolchoado">
 
          <p class="primeiro-paragrafo">
-             Aqui você encontra as especificações, materiais e moldes para <br>
+               <a class="link" download  href="imagens/CARTILHA.pdf">Aqui</a> você encontra as especificações, materiais e moldes para <br>
              a fabricação do saco de dormir <br>
              -Casulo
          </p>
@@ -59,11 +59,11 @@
 
 
 
-<?php include 'includes/footer.php'; ?>
+ <?php include 'includes/footer.php'; ?>
 
-<script src="js/menu.js"></script>
-<script src="js/jquery-3.1.0.min.js"></script>
-<script src="js/silde.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/silde.js"></script>
 </body>
 </html>
 

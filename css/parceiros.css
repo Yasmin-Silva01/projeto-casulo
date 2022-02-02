@@ -1,0 +1,100 @@
+article {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.casulos{
+   font-size: 20px;
+   margin-top: 10px;
+}
+.casulo-curitiba1{
+    width:15%;
+   
+}
+.curitiba-parana{
+    font-size: 20px;
+    display: block;
+    margin-top: -32px;
+    margin-bottom: 20px;
+}
+.casulo-curitiba2{
+    width:17%;
+}
+.casulo-curitiba3{
+    width:17%;
+    margin-left: 32px;
+}
+.nobem{
+    width:15%;
+}
+.Juiz-de-fora{
+    font-size: 20px;
+    display: block;
+    margin-top: -32px;
+    margin-bottom: 20px;
+}
+.minas-gerais1{
+    width:17%;
+}
+.minas-gerais2{
+    width:17%;
+    margin-left: 32px;
+}
+.casulo-brasilia1{
+    width:15%;
+}
+.brasilia{
+    font-size: 20px;
+    display: block;
+    margin-top: -32px;
+    margin-bottom: 20px;
+}
+.brasilia2{
+    width:17%;
+}
+.brasilia3{
+    width:17%;
+    margin-left: 32px;
+}
+
+@media screen  and (max-width:1100px)  {
+    .casulo-curitiba1{
+        width: 25%;
+    }
+    .curitiba-parana{
+        font-size: 18px;
+        margin-top:-10px;
+    }
+    .casulo-curitiba2{
+        width: 25%;
+    }
+    .casulo-curitiba3{
+        width: 25%;
+    }
+    .nobem{
+        width:25%;
+    }
+    .Juiz-de-fora{
+        font-size: 18px;
+        margin-top:-10px;
+    }
+    .minas-gerais1{
+        width: 25%;
+    }
+    .minas-gerais2{
+        width: 25%;
+    }
+    .casulo-brasilia1{
+        width: 25%;
+    }
+    .brasilia{
+        font-size: 18px;
+        margin-top:-10px;
+    }
+    .brasilia2{
+        width: 25%;
+    }
+    .brasilia3{
+        width: 25%;
+    }
+}

@@ -8,7 +8,7 @@
         <h2>Acompanhe o nosso trabalho</h2>
         <p>
             Siga-nos na nossas redes sociais <br>
-             e fique por dentro das novidades!
+            e fique por dentro das novidades!
         </p>
         <p class="fale-conosco-footer">Fale conosco</p>
     </div>

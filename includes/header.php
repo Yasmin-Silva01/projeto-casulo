@@ -12,7 +12,7 @@
            <ul class="menu">
               <li><a href="index.php">Home</a></li>
               <li><a href="cartilha.php">Cartilha</a></li>
-              <li><a href="">Nossos Parceiros</a></li>
+              <li><a href="parceiros.php">Nossos Parceiros</a></li>
               <li><a href="">Fale conosco</a></li>
           </ul>
       </nav>
