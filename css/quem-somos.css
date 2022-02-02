@@ -1,3 +1,4 @@
+
 article {
     text-align: center;
     margin-top:20px;
@@ -5,12 +6,6 @@ article {
 }
 h1{
     margin-top:30px;
-}
-.link{
-   color:blue;
-}
-.link:hover{
-    color: red;
 }
 .primeiro-paragrafo{
     font-size: 20px;
@@ -21,8 +16,12 @@ h1{
     width:26%;
 }
 
+
+
 @media screen  and (max-width:1100px)  {
     .imagem1{
         width:40%;
     }
-}
+    
+        
+    }
