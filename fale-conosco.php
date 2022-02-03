@@ -82,11 +82,9 @@
 <script src="js/jquery-3.1.0.min.js"></script>
 
 
-<!-- Usando o Vanilla Masker -->
+<!-- Usando o Vanilla Masker. Máscara dinâmica -->
 <script src="js/vanilla-masker.min.js"></script>
 
-
-<!-- Mascarando o campo de telefone. Máscara dinâmica -->
 <script>
 
 function inputHandler(masks, max, event) {
@@ -156,10 +154,10 @@ headers: {
     'Accept': 'application/json'
 }
 }).then(response => {
-status.innerHTML = "Mensagem enviada com sucesso, obrigado!";
+status.innerHTML = "Agradecemos pela sua mensagem!";
 form.reset()
 }).catch(error => {
-status.innerHTML = "Oops! Encontramos um problema, revise as informações e envie novamente."
+status.innerHTML = "Revise os seus dados e reenvie a mensagem"
 });
 }
 form.addEventListener("submit", handleSubmit)
