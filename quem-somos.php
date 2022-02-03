@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casulo pra rua</title>
+    <title>Quem somos</title>
 
     <!-- Inserindo tags meta -->
     <meta name="description" content="Site que mostra o Projeto Casulo pra Rua. Um saco de dormir voltado para população em situação de rua">
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/cartilha.css">
 </head>
 <body>
-    
+
 <?php  
   require 'includes/header.php';
 ?>
@@ -50,7 +50,7 @@
 
     <div class="frase">
         <h2> "Eu estava na minha cama quentinha nas noites de inverno, lembrando das pessoas que dormiam nas ruas."
-        <i>Bibi Fragelli</i>
+        <em>Bibi Fragelli</em>
         </h2>
 
     </div>
