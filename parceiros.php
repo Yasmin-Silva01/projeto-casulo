@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casulo pra rua</title>
+    <title>Parceiros pelo Brasil</title>
 
     <!-- Inserindo tags meta -->
     <meta name="description" content="Site que mostra o Projeto Casulo pra Rua. Um saco de dormir voltado para população em situação de rua">
