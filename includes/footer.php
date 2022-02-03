@@ -1,7 +1,7 @@
 
 <footer>
-    <div class="footer-filho">
-        <img class="imagem-footer" src="imagens/logo.png">
+    <div class="footer-filho"> 
+      <img class="imagem-footer" src="imagens/logo.png">  
    </div>                                                                                                                                                                                                                                            
 
     <div class="footer-filho">
@@ -14,7 +14,12 @@
     </div>
 
     <div class="footer-filho" id="rede-social">
-        <img class="instagram" src="imagens/insta.png" alt="">
-        <img class="facebook" src="imagens/facebook.png" alt="">
+        <a href="https://www.instagram.com/casuloprarua/" target="_blank">
+          <img class="instagram" src="imagens/insta.png" alt="">
+        </a>
+
+        <a href=" https://www.facebook.com/casuloprarua/" target="_blank">
+         <img class="facebook" src="imagens/facebook.png" alt="">
+        </a>
     </div>
 </footer>

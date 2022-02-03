@@ -46,11 +46,11 @@
                     </div>
                   
                     <div class="mySlides fade">
-                      <img src="imagens/brasilia2.png" class="imagem-slider">
+                      <img src="imagens/casu04.png" class="imagem-slider">
                     </div>
                   
                     <div class="mySlides fade">
-                      <img src="imagens/casu02.png" class="imagem-slider">
+                      <img src="imagens/casulo3.png" class="imagem-slider">
                       
                     </div>
                   
@@ -79,7 +79,7 @@
                 </p>
            </div>
             <figure>
-                <img src="imagens/casu03.png" alt="homem com o saco de dormir">
+                <img  class="homem-praticidade" src="imagens/copia-casu3.png" alt="homem com o saco de dormir">
             </figure>
         </article>
 
@@ -88,23 +88,23 @@
             <div class="container-casulo">
                   
                 <div class="container-filho">
-                    <img src="imagens/1.png" alt="">
+                    <img src="imagens/leve1.png" alt="">
                 </div>
 
                 <div class="container-filho">
-                    <img src="imagens/2.png" alt="">
+                    <img src="imagens/quente2.png" alt="">
                 </div>
 
                 <div class="container-filho">
-                    <img src="imagens/3.png" alt="">
+                    <img src="imagens/impermeavel3.png" alt="">
                 </div>
 
                 <div class="container-filho">
-                    <img src="imagens/4.png" alt="">
+                    <img src="imagens/ajusta-se4.png" alt="">
                 </div>
                   
                 <div class="container-filho">
-                    <img class="baixo-custo" src="imagens/5.png" alt="">
+                    <img class="baixo-custo" src="imagens/baixo-custo5.png" alt="">
                 </div>
             </div>
         </article>

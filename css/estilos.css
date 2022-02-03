@@ -177,19 +177,21 @@ figure {
     width: 77%;
 }
 .praticidade{
+    background-image: linear-gradient(335deg, #777711, black);
     height:auto;
-   background-image:url(../imagens/fundo-praticidade.jpg) ;
     color: white;
    text-align: center;
 }
-
+.homem-praticidade{
+    width: 57%;
+}
 .praticidade p {
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
 }
 .container-filho{
-    width:100px;
+    width:115px;
     margin-left:30px;
     margin-bottom: 10px;
 }
@@ -215,7 +217,7 @@ footer {
     align-items: center;
 }
 .imagem-footer{
-  width: 75px;
+  width: 69px;
   margin-left: 40px;
 }
 .footer-filho h2{
@@ -240,7 +242,7 @@ footer {
     width:23%;
 }
 .facebook{
-    width:40%;
+    width:44%;
     
 }
 .instagram{
@@ -265,6 +267,7 @@ input:not([type="radio"]):not([type="checkbox"]), select, textarea {
     border: none;
     padding: 2%;
     box-shadow: grey 0 0 1px inset;
+    width: 44%;
 }
 
 textarea {
@@ -335,9 +338,13 @@ form div {
         display: flex;
         flex-direction: row-reverse;
     }
+    .homem-praticidade{
+        width: 48%;
+    }
     .praticidade div{
         width: 40%;
         margin-right: 113px;
+        margin-top: 76px;
     }
     .praticidade img{
         margin-right: 204px;
@@ -346,6 +353,7 @@ form div {
         justify-content: center;
     }
     .container-filho{
+        width:115px;
         margin-left: 88px;
     }
     .baixo-custo{
@@ -355,10 +363,62 @@ form div {
     #rede-social{
         width: 11%;
     }
+    .facebook{
+        width:47%;
+    }
+    .instagram{
+        width: 49%;
+    }
+    .imagem-footer{
+        width: 92px;
+        margin-left: 40px;
+    }
+    .footer-filho h2{
+     color: black;
+     font-size:26px;
+     margin-left: 25px;
+     margin-bottom: 10px;
+    }
     footer{
-        justify-content: center;
+      justify-content: center;
+    }
+    .footer-filho p{
+        color: black;
+        margin-left: 37px;
+        font-weight: normal;
+        font-size: 18px;
     }
     .footer-filho{
         margin-right: 19px;
+    }
+    .fale-conosco-footer{
+        background-color: white;
+        margin-top:15px;
+        width:214px;
+       margin-left: 100px !important; 
+       margin-right: 0;
+    }
+    h1 {
+        font-size: 3.3rem;
+        margin-left: 59px;
+        margin-top:-105px;
+    }
+    .destaque p {
+        font-size: 27px;
+        margin-left: 80px;
+    }
+    article h2 {
+        text-align: center;
+        padding: 1rem;
+       font-size: 33px;
+    }
+    .praticidade p {
+        font-size: 22px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .historia h2 {
+        color: black;
+       font-size: 34px;
     }
 }

@@ -2,10 +2,12 @@
 
  <div class="limitador">
       <h1 class="logo">
-         <a href="index.html"><img src="imagens/logo.png" alt="logo Casulo pra rua"></a>
+        <a href="index.php">
+            <img src="imagens/logo.png" alt="logo Casulo pra rua">
+        </a>
      </h1>
 
-     <nav>
+      <nav>
           <h2 class="icone-menu">
               <a href="" class="icone">Menu&equiv;</a>
           </h2>
