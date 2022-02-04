@@ -1,3 +1,13 @@
+<?php
+if( isset($_POST['my-form-button']) ){
+    echo "ok";
+   /*   require_once "src/funcoes-cadastro.php";
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+    inserirCadastro($conexao, $nome);
+    header("location:   "); */
+} 
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,11 +26,18 @@
 <!-- CSS externo -->
 <link rel="stylesheet" href="css/estilos.css">
 
+<style>
+    header, nav {
+        background-color: none;
+    }
+</style>
+
+
 </head>
 <body>
-  <?php  
-     require 'includes/header.php';
-   ?>
+
+
+
 
   <!-- conteúdo -->
   <main>
@@ -50,7 +67,6 @@
             <input type="tel" name="telefone" id="telefone" placeholder="Digite apenas números, incluindo o DDD">
         </div>
 
-   
         <div>
             <label for="assunto">Assunto:</label>
             <select name="assunto" id="assunto">
@@ -69,9 +85,11 @@
             <textarea name="mensagem" id="mensagem" cols="20" rows="5" maxlength="100"></textarea>
             </div>
 
-        <button type="submit" id="my-form-button">Enviar dados</button>
+        <button type="submit" id="my-form-button" name="my-form-button">Enviar dados</button>
             <p id="my-form-status"></p>
             </form>
+
+            
         </article> 
          
  </main>  
