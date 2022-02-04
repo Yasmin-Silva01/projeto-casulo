@@ -11,11 +11,11 @@ abstract class Banco {
         $senha = "";
         $banco = "exemplo_vendas";*/
 
-
+        /* conexão remoto 
         $servidor = "sql104.byethost4.com";
         $usuario = "b4_30964317";
         $senha = "2347yassan@";
-        $banco = "b4_30964317_casulo";
+        $banco = "b4_30964317_casulo";*/
 
 
         try {
