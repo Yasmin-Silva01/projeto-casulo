@@ -1,27 +1,77 @@
 
 article {
     text-align: center;
-    margin-top:20px;
-    
+    margin-top:20px; 
 }
 h1{
     margin-top:30px;
+    font-size: 40px;
 }
-.primeiro-paragrafo{
+.casulo-pra-rua{
     font-size: 20px;
     margin-top: 25px;
-    margin-bottom:15px;
 }
-.imagem1{
-    width:26%;
+.casulo-iniciativa{
+    font-size: 20px;
+    margin-top: -14px;
+    
 }
-
-
+.mulheres{
+    width: 40%;
+    margin-top: 20px;
+}
+figcaption{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.projeto-casulo{
+    font-size: 20px;
+    margin-top: 55px;
+}
+.casulos{
+    width: 40%;
+}
+.casulo-focos{
+    font-size: 20px;
+}
+.frase h2{
+    font-size: 18px;
+    margin-top:66px;
+    margin-bottom: 20px;
+}
 
 @media screen  and (max-width:1100px)  {
-    .imagem1{
-        width:40%;
+    h1{ 
+        font-size: 30px;
+    }
+    .casulo-pra-rua{
+        font-size: 18px;
+    }
+    .casulo-iniciativa{
+        font-size: 18px;
+    }
+    .mulheres{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .projeto-casulo{
+        font-size: 18px;
+        margin-top: 55px;
+        white-space:pre-line;
+        margin-left: 15px;
+    }
+    .casulos{
+        width: 58%;
+    }
+    .casulo-focos{
+        font-size:17px;
+        margin-top: 22px;
+    }
+    .frase h2{
+        font-size: 15px;
+        margin-top:66px;
+        margin-bottom: 20px;
     }
     
-        
 }

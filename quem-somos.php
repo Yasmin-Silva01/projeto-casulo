@@ -18,7 +18,8 @@
     <!-- CSS externo -->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/slide.css">
-    <link rel="stylesheet" href="css/cartilha.css">
+    <link rel="stylesheet" href="css/quem-somos.css">
+    
 </head>
 <body>
 
@@ -27,35 +28,41 @@
 ?>
 
 <main>
-<article class="idealizadoras">
-    <h1>Quem somos</h1>
-    <p class="">O Casulo Pra Rua é um projeto criado pela estilista Bibi Fragelli, e pela sua sócia, a roterista, Patrícia Curti.</p>
-    <br>
-    <p>A iniciativa surgiu, mesmo antes da pandemia, de aliviar as noites frias de São Paulo, para a população de rua.</p>
+  <article class="idealizadoras">
+        <h1>Quem somos</h1>
+        <p class="casulo-pra-rua">O Casulo Pra Rua é um projeto criado pela estilista Bibi Fragelli, e pela sua sócia, a roterista, Patrícia Curti.</p>
+        <br>
+        <p class="casulo-iniciativa">A iniciativa surgiu, mesmo antes da pandemia, de aliviar as noites frias de São Paulo, para a população de rua.</p>
 
 
-    <figure>
-        <img class="mulheres" src="imagens/idealizadoras.jpg" alt="Idealizadoras do Casulo para Rua - Bibi Fragelli e Patrícia Curti">
-        <figcaption>Idealizadoras Patrícia Curti e Bibi Fragelli</figcaption>
-    </figure>
+        <figure>
+            <img class="mulheres" src="imagens/idealizadoras.jpg" alt="Idealizadoras do Casulo para Rua - Bibi Fragelli e Patrícia Curti">
+            <figcaption>Idealizadoras Patrícia Curti e Bibi Fragelli</figcaption>
+        </figure>
 
-    <p>O projeto nasceu no dia 16 de abril de 2021 e tem feito muito sucesso. A intenção é que o Casulo seja replicado e multiplicado por todo Brasil. </p>  
+        <p class="projeto-casulo">
+            O projeto nasceu no dia 16 de abril de 2021 e tem feito muito sucesso. <br>
+            A intenção é que o Casulo seja replicado e multiplicado por todo Brasil. 
+        </p>  
 
-    <figure>
-        <img class="casulos" src="imagens/trio casulo.png" alt="Três ilustrações de casulos em tamanhos diferentes">
-        
-    </figure>
+        <figure>
+            <img class="casulos" src="imagens/trio casulo.png" alt="Três ilustrações de casulos em tamanhos diferentes">
+            
+        </figure>
 
-    <p>O Casulo Pra Rua tem dois focos: beneficiar diretamente as pessoas em situação de rua e ao mesmo tempo, dar trabalho - com remuneração justa - para costureiras desempregadas ou de baixa renda.</p>  
+        <p class="casulo-focos">
+            O Casulo Pra Rua tem dois focos: beneficiar diretamente as pessoas em situação de rua e ao mesmo tempo,<br> 
+            dar trabalho - com remuneração justa - para costureiras desempregadas ou de baixa renda.
+        </p>  
 
-    <div class="frase">
-        <h2> "Eu estava na minha cama quentinha nas noites de inverno, lembrando das pessoas que dormiam nas ruas."
-        <em>Bibi Fragelli</em>
-        </h2>
+        <div class="frase">
+            <h2> "Eu estava na minha cama quentinha nas noites de inverno, lembrando das pessoas que dormiam nas ruas."
+            <em>Bibi Fragelli</em>
+            </h2>
 
-    </div>
+        </div>
 
- </article>
+  </article>
 </main>
 
 <?php include 'includes/footer.php'; ?>
