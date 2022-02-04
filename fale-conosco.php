@@ -26,18 +26,8 @@ if( isset($_POST['my-form-button']) ){
 <!-- CSS externo -->
 <link rel="stylesheet" href="css/estilos.css">
 
-<style>
-    header, nav {
-        background-color: none;
-    }
-</style>
-
-
 </head>
 <body>
-
-
-
 
   <!-- conteúdo -->
   <main>
