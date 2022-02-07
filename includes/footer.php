@@ -10,7 +10,13 @@
             Siga-nos na nossas redes sociais <br>
             e fique por dentro das novidades!
         </p>
-        <p class="fale-conosco-footer">Fale conosco</p>
+        
+
+        <p class="fale-conosco-footer">
+        <a href="fale-conosco.php">Fale conosco</a></h1>
+        
+
+
     </div>
 
     <div class="footer-filho" id="rede-social">
