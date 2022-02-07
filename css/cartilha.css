@@ -9,9 +9,11 @@ h1{
 }
 .link{
    color:blue;
+   
 }
 .link:hover{
     color: red;
+    text-decoration: underline;
 }
 .primeiro-paragrafo{
     font-size: 20px;
