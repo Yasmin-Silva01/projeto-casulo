@@ -50,7 +50,7 @@
                     </div>
                   
                     <div class="mySlides fade">
-                      <img src="imagens/casulo3.png" class="imagem-slider">
+                      <img src="imagens/conta.png" class="imagem-slider">
                       
                     </div>
                   
